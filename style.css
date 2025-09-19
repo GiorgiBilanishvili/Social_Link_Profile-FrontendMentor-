@@ -1,0 +1,70 @@
+body {
+  font-family: "Inconsolata", monospace;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+}
+.main_container {
+  width: 95%;
+  background-color: hsl(0, 0%, 12%);
+  margin-top: 150px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  padding-top: 20px;
+  line-height: 5px;
+  border-radius: 10px;
+}
+.main_container img {
+  width: 80px;
+  border-radius: 50%;
+}
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+}
+h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 15px;
+  /* margin-top: -10px; */
+}
+p {
+  color: white;
+  margin-top: 20px;
+}
+.github,
+.frontend_mentor,
+.linkedin,
+.twitter,
+.instagram {
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  width: 90%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.github:hover,
+.frontend_mentor:hover,
+.linkedin:hover,
+.twitter:hover,
+.instagram:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  transition: 0.2s;
+}
+
+@media only screen and (min-width: 1440px) {
+  .main_container {
+    width: 25%;
+  }
+}
